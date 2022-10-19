@@ -1,0 +1,979 @@
+<html>
+    <head>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <style>
+            .con{border: 1px solid black;
+                 padding:10px ;
+                 background-color:rgb(33, 33, 83) ;
+                 width: auto; height:auto ;
+            }
+
+            .con nav a img{width:25px ; margin-left:80px ;}
+
+            .con nav a {text-decoration:none ;font-size:15px ; margin-left:25px ;color: white; font-family: 'Montserrat', sans-serif;}
+
+            .con nav a span {border:3px solid orange  ;padding:8px ;margin-left:30px ;color:white ; text-decoration: none;}
+
+            .con nav a:hover {background-color:goldenrod  ;}
+
+            .h{border: 1px solid black;
+               width:auto ;
+               height:100px ;
+               border: none;
+
+            }
+
+            .h a img {margin-left:100px;}
+
+            .h nav {margin-left:400px;margin-top:-50px ;}
+
+            .h a {font-family: 'Russo One', sans-serif; }
+
+            .aka{margin-left:25px ;
+                 color:#002147;
+                 text-decoration: none;
+                 font-size:15px;
+                }
+
+            .h a:hover{background-color:goldenrod ;}
+
+            .web{border: 1px solid black;
+                height:700px ;
+                background-image:url(akweb.jpg) ;
+                background-size:cover ;
+                border: none;
+                   
+            }
+            .img{ position: fixed;
+                  width:200px ; 
+                  bottom: 0; 
+                  margin: 0 0 30px 20px; 
+                  z-index: 9999; 
+                  left:0px ;                
+            }
+
+            .imgri{ position: fixed;
+                  width:100px ; 
+                  bottom: 0; 
+                  margin: 0 45px 150px 0px; 
+                  z-index: 9999; 
+                  right:15px ;                
+            }
+
+            .inq{ position: fixed;
+                  width:150px ; 
+                  bottom: 0; 
+                  margin: 0 45px 100px 0px; 
+                  z-index: 9999; 
+                  right:0px ; 
+                  font-size:20px ;   
+                  background-color:rgb(216, 83, 83) ;    
+                  color: white;
+                  border-radius:5px ;        
+            }
+
+            .cur{border:1px solid black ;
+                 width:1000px ;
+                 margin-left:150px ;
+                 padding:40px ;
+                 margin-top:-50px ;
+                 background-color:rgb(33, 33, 83);
+                 color: white;
+                 border: none;
+            }
+
+            .cur span {font-size:20px ;font-family: 'Poppins', sans-serif; }
+
+            .cur input {width:600px ; margin-left:50px ; height:30px ;font-size:20px ;}
+
+            .know{border: 1px solid black; border: none;}
+
+            .know h1 {text-align:center ; margin-top:200px ;font-size:70px ;color:rgb(33, 33, 83) ;font-family:        'Montserrat', sans-serif; font-weight:1000 ; }
+
+            .know p {border:1px solid black; margin-left:300px ; margin-right:300px ;text-align: justify; font-size:18px ;color:rgb(100, 100, 100) ; border: none;margin-bottom:30px ;font-family:        'Montserrat', sans-serif;}
+
+            .know h2 input {margin-left:50% ;margin-top:30px ;font-size:15px ;padding:20px ;border-radius:30px ;color: white; background-color:rgb(33, 33, 83) ;font-family: 'Poppins', sans-serif; }
+
+            .know img {margin-left:250px; margin-top:50px ;border-radius:25px; margin-bottom:50px; width:1000px ; }
+
+            .course{border: 1px solid black;
+                    background-color: lightgrey;
+                    height:1100px ;
+                    
+            }
+
+            .course h1 {text-align:center ; font-size:50px ; padding-bottom:80px ;padding-top:120px ;color:rgb(33, 33, 83) ; font-family:'Montserrat', sans-serif; }
+
+            .ph{border:1px solid black ;
+                width:250px ;
+                background-color: white;
+                margin-left:100px ;
+                margin-bottom:60px ;
+                border-color:lightgrey ;
+            }
+
+            .ph1{border:1px solid black ;
+                width:250px ;
+                background-color: white;
+                margin-left:100px ;
+                margin-bottom:60px ;
+                border-color:lightgrey ;}
+
+            .phim {width: 250px;}
+
+            .ph p {text-align:center ;font-size:20px ; font-family:'Montserrat', sans-serif ;}
+
+            .ph p a input {font-size:20px ;border-radius:20px ;margin-left:50px ;}
+ 
+            
+
+            .menu{border: 1px solid black;
+                background-image: url(bg.jpg);
+                background-size:cover ;
+                height:1100px ;
+            }
+
+            .menu h1 {color:white ; font-size:30px ;margin-left:100px ;padding-top:100px;padding-bottom:50px ; font-family: 'Poppins', sans-serif;}
+
+            .tr{border: 1px solid black;
+                width:250px ;
+                margin-left:100px ;
+                margin-bottom:60px ;
+                background-color:white ;
+            }
+
+            .tr img {width: 250px;}
+
+            .tr a {text-decoration:none ;}
+
+            .tr h2 {text-align:center ; font-size:20px ;color:rgb(33, 33, 83) ;font-family:'Montserrat', sans-serif ;}
+
+            .menu a input {margin-left:600px ; padding:20px ;font-size: 15px;margin-top:50px ;border:3px solid goldenrod ;background-color:black;color: white;font-family:'Montserrat', sans-serif;}
+
+            .why{border: 1px solid black;
+                 height: 1100px; width: auto;
+                 border: none;
+            
+            }
+
+            .why h1 {text-align:center ; padding-top:100px ;font-size:60px ;color:rgb(33, 33, 83) ;font-family: 'Montserrat', sans-serif ;}
+
+            .why h3 {text-align:center ;font-size:25px ;color: rgb(75, 70, 70);padding-bottom:50px ;font-family: 'Poppins', sans-serif;}
+
+            .kt{border:1px solid black ;
+                margin-left:150px;
+                background-color:#002147; 
+                width:550px ;
+                border-radius:30px ;
+            
+            }
+            
+            .kt1{border:1px solid black ;
+                margin-left:150px;
+                background-color:#002147; 
+                width:550px ;
+                border-radius:30px ;
+                margin-top:25px ;
+            
+            }
+
+            .kt2 {border:1px solid black ;
+                background-color:#002147; 
+                width:550px ;
+                border-radius:30px ;
+                margin-left:800px ;
+                margin-top:-480px ;
+            
+            }
+            
+            .kt3 {border:1px solid black ;
+                background-color:#002147; 
+                width:550px ;
+                border-radius:30px ;
+                margin-top:25px ;
+                margin-left:800px ;
+            
+            }
+
+            .inpu {font-size:25px; border-radius:500px ;margin-left:20px ;padding:5px ;width:50px ;background-color:#fdc800;font-family: 'Montserrat', sans-serif ;}
+            
+            .sty {margin-left:15px ;font-size:20px ;color: white;font-family: 'Montserrat', sans-serif ;}
+
+            .button {margin-left:650px;margin-top:80px ;padding:20px ;font-size:15px;border-radius:25px ;background-color:#002147;  color: white;}
+
+            .button:hover{background-color:goldenrod ;}
+
+            
+
+
+
+            .work{border: 1px solid black;border: none; height:1000px ;}
+
+            .work h1 {text-align:center ;padding-top:80px ;padding-bottom:15px ;font-size:50px ;color:rgb(33, 33, 83) ;font-family: 'Montserrat', sans-serif ;}
+
+            .pi1 img{width:200px ;margin-left:50px ;}
+
+            .work input {margin-left:650px;margin-top:80px ;padding:20px ;font-size:15px;border-radius:25px ;background-color:#002147;  color: white;}
+
+            .work input:hover{background-color: goldenrod;}
+
+            .we{border: 1px solid black;
+                background-color:lightgray ;
+                height: 800px;
+                border: none;
+                
+            }
+
+            .we h1 {text-align:center; padding-top:100px ;color:rgb(33, 33, 83) ;font-family: 'Montserrat', sans-serif ; padding-bottom:50px ;font-size:50px ;}
+
+            .cor{border: 1px solid lightgrey;
+                width:150px ;
+                margin-left:150px ;
+                margin-bottom:60px ;
+                background-color:lightgray ;
+                
+            }
+
+            .cor img {margin-left:40px;}
+
+            .cor a {text-decoration:none ;}
+
+            .cor h2 {text-align:center ; font-size:20px ;color:rgb(33, 33, 83) ;font-family: 'Montserrat', sans-serif ;}
+
+            .stu{border: 1px solid black;height:1000px ; border: none;}
+
+            .stu h1 {text-align:center ; padding-top:100px ;font-size:40px ; color:rgb(33, 33, 83);padding-bottom:50px ;font-family: 'Montserrat', sans-serif ;}
+
+            .re {border:1px solid black ;
+                width:600px ;
+                background-color:lightgrey; 
+                margin-left:80px;              
+            }
+           
+            .re1 {border:1px solid black ;
+                width:600px ;
+                background-color:lightgrey;  
+                margin-left:800px;
+                margin-top:-260px ;             
+            }
+           
+            .re2 {border:1px solid black ;
+                width:600px ;
+                background-color:lightgrey;
+                margin-left:80px; 
+                margin-top:120px ;               
+            }
+           
+            .re3 {border:1px solid black ;
+                width:600px ;
+                background-color:lightgrey; 
+                margin-left:800px;
+                margin-top:-225px ;             
+            }
+
+            .pere{text-align:justify ;font-size:15px ;color:rgb(104, 104, 104) ;font-family: 'Montserrat', sans-serif ;}
+
+            
+
+            .im{border:1px solid black;
+                height:100px ;
+                border: none;
+                margin-left:100px ; 
+                margin-top:20px ;
+            }
+           
+            .im1{border:1px solid black;
+                height:100px ;
+                border: none;
+                margin-left:800px ;
+                 margin-top:20px;
+            }
+           
+            .im2{border:1px solid black;
+                height:100px ;
+                border: none;
+                margin-left:100px ; 
+                margin-top:20px ;
+            }
+           
+            .im3{border:1px solid black;
+                height:100px ;
+                border: none;
+                margin-left:800px ;
+                 margin-top:20px;
+            }
+
+            .im4{width:100px ;}
+            
+            .pic {width:100px ; border-radius:40px ;}
+            
+            .nam{margin-left:150px;margin-top:-100px ;}
+
+            .global{border: 1px solid black;
+                    height:700px ;
+                    background-color:whitesmoke;
+                    border: none;         
+            }
+
+            .global h1 {text-align:center ; padding-top:100px ;font-size:40px ;padding-bottom:50px ;color:rgb(33, 33, 83);padding-bottom:50px ;font-family: 'Montserrat', sans-serif ;}
+
+            .global img {margin-left:150px ;}
+
+            .com{border:1px solid black ;
+                 height:400px ;
+                 border: none;
+            }
+
+            .com h1 {text-align:center ; padding-top:100px ;font-size:40px ;padding-bottom:50px;font-family: 'Montserrat', sans-serif ;color:rgb(33, 33, 83)}
+
+            .logo{border: 10px outset ;
+                  width: 300px ;
+                  margin-left:100px ;
+                  padding:20px ;
+            }
+
+            .logo1{border: 10px outset ;
+                  width: 300px ;
+                  padding:20px ;
+                  margin-left:550px ; 
+                  margin-top:-110px ;
+            }
+
+            
+            .logo2{border: 10px outset ;
+                  width: 300px ;
+                  margin-left:1000px ; 
+                  margin-top:-110px ;
+                  padding:20px ;
+            }
+
+            .pim{margin-left:40px;}
+
+            .footer{border:1px solid black ;
+                    background-color:#002147; 
+                    padding-top:100px ;
+                    color: white;
+                    height:1000px ;
+                    width:1480px ;
+                    margin-top:80px ;
+            }
+
+            .na{border: 1px solid black;
+                width:250px ;   
+                margin-left:50px ; 
+                color: white;
+                border-color: #002147;
+            }
+
+            .na h1 {font-size:25px;}
+
+            .na ul {font-size:20px ;text-decoration: none;} 
+
+            .na ul a {text-decoration:none ;color: white;}
+
+            .span {width:40px ;margin-right:20px ;font-size:30px;}
+
+            .span2 {color:goldenrod ;font-size:40px ;margin-right:20px ;}
+
+            .add{border: 1px solid black;
+                 width:300px ;
+                 margin-left:50px ;
+                 margin-top:50px ;
+                 border: none;
+            }
+
+            .aki{width:300px ;}
+
+            .add p {font-size:20px ;text-align:justify ;font-family: 'Montserrat', sans-serif ;}
+
+            .map {color:white;font-size:20px;text-decoration: underline;}
+
+            .add p a {margin-left:10px}
+
+            .add h1 {margin-top:30px;font-family:Verdana, Geneva, Tahoma, sans-serif ;}
+
+            .call{text-decoration:none ;font-size:20px ; margin-left:25px ;color: white;}
+
+            .pro{border: 1px solid black;
+                 width:350px ;
+                 margin-left:1000px ;
+                 margin-top:-420px ;
+                 border-color: #002147;
+            }
+
+            .pc{width: 100px;}
+
+            .pc1{width:100px ;margin-left:10px ;}
+
+            .pc2{width:100px ;margin-top:15px ;}
+
+            .pro1{border: 1px solid black;
+                 width:350px ;
+                 margin-left:1000px ;
+                 margin-top:80px ;
+                 border-color: #002147;
+            }
+
+            .prc1{width:150px ;}
+
+            .prc2{width:150px ;margin-left:30px ;}
+
+            
+        
+
+
+       
+       </style>
+    </head>
+                <body>
+                    <div class="con">
+                        <nav>
+                            <a href="https://api.whatsapp.com/send?phone=+919978621654&amp;text=Hello%20Akash%20Sir%20%20I%20Am%20Looking%20For%20" target="_blank"> <img src="whatsapp-icon.png"> </a>
+
+                             <a href="tel: +91 9978621654">  &#128222; +91 9978621654 </a> 
+
+                             <a href="mailto:info@akashsir.com">&#128231; info@akashsir.com</a>
+
+                             <a href="mailto:akashsir.com@gmail.com"> &#128231; akashsir.com@gmail.com</a>
+
+                             <a href="https://www.akashsir.com/tutorials.php" target="_blank"> <span style="margin-left:180px ;">  TUTORIALS </span> </a>
+                            
+                             <a href="https://www.akashsir.com/student-placement.php" target="_blank"> <span>  PLACEMENT </span> </a>
+                            
+                             <a href="https://www.akashsir.com/inquiry.php" target="_blank"> <span>  INQUIRY NOW </span> </a>
+
+                        </nav>
+                    </div>
+
+                    <div class="h">
+                        
+                           <a href="akashsir.html"><img src="akash.png"></a> 
+                            <nav>
+                            <a href="#about" class="aka" style="margin-left:100px ;"> ABOUT </a>
+                            <a href="#TRA" class="aka"> TRAINING </a>
+                            <a href="#ALL" class="aka"> ALL COURSES </a>
+                            <a href="#TRE" class="aka"> TREDING COURSE </a>
+                            <a href="#FREE" class="aka"> FREE COURSE </a>
+                            <a href="#PROJECT" class="aka"> PROJECT </a>
+                            <a href="#GA" class="aka"> GALLERY </a>
+                            <a href="#GET" class="aka"> GET IN TOUCH </a>       
+
+                        </nav>
+
+                    </div>
+
+                    <div class="web">
+                    </div>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=9537207089&amp">  
+                        <img src="w1.png" class="img">   </a>
+                    
+                        <a target="_blank" href="#inquiry">  <img src="chat.png" class="imgri">  </a>
+
+                        <a target="_blank" href="#inquiry"> <input type="button" value="Quick Inquiry" class="inq"> </a>
+
+                        <div class="cur">
+                            <span> &#128269; Search Courses </span> <input type="text" name="couses" placeholder="Courses Keywords...">
+
+                        </div>
+
+                        <div class="know">
+
+                            <h1>  Welcome To Akash Sir  </h1>
+
+                            <p> Akashsir and his team of trainers have vast experience in the field of IT training and development. Our team of trainers plays a significant role in teaching IT programming languages in Ahmedabad, Gujarat, India. We provide training on various technologies. We have different options in training like class room training, online training, faculty development training, developer training and professional/corporate IT training. Our each trainer has their own strength in teaching as well as development field. Our trainers are not only in the training field but they are also work with IT company. Their expertise in IT field gives an opportunity to students for making bright career in IT industry. . Here you get best IT based project training of Ahmedabad, Gujarat, India.</p>
+
+                            <h2> <input type="button" value="Know More"></h2>
+
+                            <img src="batch.jpg">
+                        </div>
+
+                        <div class="course">
+
+                            <h1> Treding Courses </h1>
+
+                                <div class="ph">
+                                    <img src="python.jpg" class="phim">
+                                    <p> python <a href="https://www.akashsir.com/python-training-ahmedabad.php " target="_blank"> <input type="button" value="&#8594;">  </a> </p>
+                            
+                                </div>
+
+                                <div class="ph" style="margin-left:450px ; margin-top:-315px ;">
+                                    <img src="node-js.jpg" class="phim">
+                                    <p> Node JS <a href="https://www.akashsir.com/nodejs-training-ahmedabad.php" target="_blank"> <input type="button" value="&#8594;" >  </a> </p>
+                            
+                                </div>
+                               
+                                <div class="ph" style="margin-left:800px ; margin-top:-315px ;">
+                                    <img src="angular.jpg" class="phim">
+                                    <p> Angular JS <a href="https://www.akashsir.com/angularjs-training-ahmedabad.php" target="_blank"> <input type="button" value="&#8594;">  </a> </p>
+                            
+                                </div>
+                                
+                                <div class="ph" style="margin-left:1150px ; margin-top:-315px ;">
+                                    <img src="react-js.jpg" class="phim">
+                                    <p> React JS <a href="https://www.akashsir.com/reactjs-tranining-ahmedabad.php" target="_blank"><input type="button" value="&#8594;">  </a> </p>
+                            
+                                </div>
+
+                            
+                                <div class="ph" style="margin-left:100px ;">
+                                    <img src="laravel.jpg" class="phim">
+                                    <p> Laravel <a href="https://www.akashsir.com/laravel-training-in-ahmedabad.php" target="_blank"><input type="button" value="&#8594;">  </a> </p>
+                            
+                                </div>
+                                
+                                <div class="ph" style="margin-left:450px ;margin-top: -315px;">
+                                    <img src="Android.jpg" class="phim">
+                                    <p> Android <a href="https://www.akashsir.com/android-training-ahmedabad.php" target="_blank"> <input type="button" value="&#8594;">  </a> </p>
+                            
+                                </div>
+                            
+                                <div class="ph" style="margin-left:800px ; margin-top:-315px ;">
+                                    <img src="Apple.jpg" class="phim">
+                                    <p> IOS <a href="https://www.akashsir.com/ios-training-ahmedabad.php" target="_blank">  <input type="button" value="&#8594;">  </a> </p>
+                            
+                                </div>
+                            
+                                <div class="ph" style="margin-left:1150px ; margin-top:-315px ;">
+                                    <img src="flutter.jpg" class="phim">
+                                    <p> Flutter  <a href="https://www.akashsir.com/flutter-training-in-ahmedabad.php" target="_blank"> <input type="button" value="&#8594;">  </a> </p>
+                                </div>
+                        </div>
+
+                        <div class="menu">
+
+                            <h1> Quick Menu </h1>
+
+                            <div class="tr">
+                                <img src="course.jpg" >
+                                <a href="https://www.akashsir.com/all-courses" target="_blank"> <h2> Courses </h2></a>
+                            </div>
+                           
+                            <div class="tr" style="margin-left:450px ;margin-top:-280px ;">
+                                <img src="online.jpg" >
+                                <a href="https://www.akashsir.com/international-it-training.php" target="_blank"> <h2> Online Training </h2></a>
+                            </div>
+                            
+                            <div class="tr" style="margin-left:800px ;margin-top:-280px ;">
+                                <img src="final.jpg">
+                                <a href="https://www.akashsir.com/finalyear-project-traning-ahmedabad" target="_blank"> <h2> Final Year Project </h2></a>
+                            </div>
+                           
+                            <div class="tr" style="margin-left:1150px ;margin-top:-280px ;">
+                                <img src="corpotare.jpg">
+                                <a href="https://www.akashsir.com/on-job-corporate-training" target="_blank"> <h2> Corporate </h2></a>
+                            </div>
+                           
+                            
+                            <div class="tr">
+                                <img src="demo.jpg" >
+                                <a href="https://www.akashsir.com/demo-lecture" target="_blank"> <h2> Demo Lecture </h2></a>
+                            </div>
+                           
+                            <div class="tr" style="margin-left:450px ;margin-top:-280px ;">
+                                <img src="webinar.jpg" >
+                                <a href="https://www.akashsir.com/webinar" target="_blank" > <h2> Webinar </h2></a>
+                            </div>
+                            
+                            <div class="tr" style="margin-left:800px ;margin-top:-280px ;">
+                                <img src="testimonial.jpg" >
+                                <a href="https://www.akashsir.com/testimonials" target="_blank"> <h2> Testimonial </h2></a>
+                            </div>
+                           
+                            <div class="tr" style="margin-left:1150px ;margin-top:-280px ;">
+                                <img src="workshop.jpg">
+                                <a href="https://www.akashsir.com/gallery-workshop.php" target="_blank"> <h2> Workshop </h2></a>
+                            </div>
+
+                                <a href="https://www.akashsir.com/all-courses.php" target="_blank"> <input type="button" value="VIEW ALL COURSES"> </a> 
+
+                        </div>
+
+                        <div class="why">
+
+                            <h1> Why To Join Us ? </h1>
+
+                            <h3> 10+ Reasons To Join Akash Sir Training </h3>
+
+                            <div class="kt">
+                                <input type="button" value="1" class="inpu"> <snap class="sty"> Free Demo Class before Admission </snap> 
+
+                            </div>
+                            
+                           
+                            <div class="kt1">
+                                <input type="button" value="2" class="inpu"> <snap class="sty"> Updated Courses & Customized Syllabus </snap> 
+
+                            </div>
+                            
+                            <div class="kt1">
+                                <input type="button" value="3" class="inpu">
+                                <snap class="sty"> One to One Training </snap> 
+
+                            </div>
+                            
+                            <div class="kt1">
+                                <input type="button" value="4" class="inpu">
+                                <snap class="sty"> Flexible Timings </snap> 
+
+                            </div>
+                            
+                            <div class="kt1">
+                                <input type="button" value="5" class="inpu">
+                                <snap class="sty"> Free & Exclusive Study Material </snap> 
+
+                            </div>
+                           
+                            <div class="kt1">
+                                <input type="button" value="6" class="inpu">
+                                <snap class="sty"> Minimal batch strength </snap> 
+
+                            </div>
+                            
+                            <div class="kt1">
+                                <input type="button" value="7" class="inpu">
+                                <snap class="sty"> Hands on Practice </snap> 
+
+                            </div>
+
+                    
+                           
+                            <div class="kt2">
+                                <input type="button" value="8" class="inpu">
+                                <snap class="sty"> Immense lab Practice </snap> 
+
+                            </div>
+                           
+                            <div class="kt3">
+                                <input type="button" value="9" class="inpu">
+                                <snap class="sty"> Easy Payment method</snap> 
+
+                            </div>
+                            
+                            <div class="kt3">
+                                <input type="button" value="10" class="inpu">
+                                <snap class="sty"> 11+ Year Experience In Training</snap> 
+
+                            </div>
+                            <div class="kt3">
+                                <input type="button" value="11" class="inpu">
+                                <snap class="sty"> Live Project work</snap> 
+
+                            </div>
+                            <div class="kt3">
+                                <input type="button" value="12" class="inpu">
+                                <snap class="sty"> Interview Preparation </snap> 
+
+                            </div>
+                            <div class="kt3">
+                                <input type="button" value="13" class="inpu">
+                                <snap class="sty"> Placement Assistance </snap> 
+
+                            </div>
+                            <div class="kt3">
+                                <input type="button" value="14" class="inpu">
+                                <snap class="sty"> Course Certification </snap> 
+                            </div>
+
+
+                            <a href="https://www.akashsir.com/faq" target="_blank"><input type="button" value="READ MORE" class="button"></a>
+                        </div>
+
+
+                        <div class="work">
+                            <h1> Delivered Workshop </h1>
+
+                           <div class="pi1">
+                            <img src="parul.png" style="margin-left:100px ;">
+                            <img src="gan.png">
+                            <img src="ch.png" >
+                            <img src="mar.png" >
+                            <img src="indus.png" ><br>
+                           </div> 
+
+                           <div class="pi1">
+                            <img src="gls.png" style="margin-left:100px ;">
+                            <img src="ahm.png" style="margin-left:50px ;">
+                            <img src="lj.png" style="margin-left:50px ;">
+                            <img src="dr.png" style="margin-left:50px ;">
+                            <img src="spu.png" style="margin-left:50px ;"><br>
+                           </div>
+                           
+                           <div class="pi1">
+                            <img src="as.png" style="margin-left:100px ;">
+                            <img src="cu.png" style="margin-left:50px ;">
+                            <img src="s.png" style="margin-left:50px ;">
+                            <img src="sil.png" style="margin-left:50px ;">
+                            <img src="sbp.png" style="margin-left:50px ;">
+                           </div>
+                            
+
+                           <a href="https://www.akashsir.com/delivered-workshop" target="_blank"> <input type="button" value="VIEW ALL" > </a>
+                        </div>
+
+                        <div class="we">
+                            <h1> We Provide </h1>
+
+                            <div class="cor">
+                                <img src="one.png">
+                                <a href="https://www.akashsir.com/one-to-one-corporate-training" target="_blank"> <h2> One to One <br> Training </h2></a>
+                            </div>
+                            
+                            <div class="cor" style="margin-left:400px ;margin-top:-210px ;">
+                                <img src="dev.png" >
+                                <a href="" target="_blank"> <h2> Devloper planing </h2></a>
+                            </div>
+                           
+                            <div class="cor" style="margin-left:650px ;margin-top:-210px ;">
+                                <img src="fac.png">
+                                <a href="#traning" target="_blank"> <h2> Faculty <br> Training </h2></a>
+                            </div>
+                           
+                            <div class="cor" style="margin-left:900px ;margin-top:-210px ;">
+                                <img src="cor.png">
+                                <a href="https://www.akashsir.com/on-job-corporate-training" target="_blank" > <h2> Corporate <br> Training </h2></a>
+                            </div>
+                            
+                            <div class="cor" style="margin-left:1150px ;margin-top:-210px ;">
+                                <img src="on.png">
+                                <a href="" target="_blank" > <h2> Onsite <br> Training </h2></a>
+                            </div>
+
+                            <div class="cor">
+                                <img src="onli.png">
+                                <a href="https://www.akashsir.com/one-to-one-corporate-training" target="_blank"> <h2> Online <br> Training </h2></a>
+                            </div>
+                            
+                            <div class="cor" style="margin-left:400px ;margin-top:-210px ;">
+                                <img src="week.png">
+                                <a href="" target="_blank" style="text-decoration:none ;"> <h2> Weekend Training </h2></a>
+                            </div>
+                           
+                            <div class="cor" style="margin-left:650px ;margin-top:-210px ;">
+                                <img src="works.png" >
+                                <a href="#traning" target="_blank" > <h2> Workshop </h2></a>
+                            </div>
+                           
+                            <div class="cor" style="margin-left:900px ;margin-top:-190px ;">
+                                <img src="seminar.png" >
+                                <a href="https://www.akashsir.com/on-job-corporate-training" target="_blank"> <h2> Seminar </h2></a>
+                            </div>
+                            
+                            <div class="cor" style="margin-left:1150px ;margin-top:-190px ;">
+                                <img src="crack.png">
+                                <a href="" target="_blank"> <h2> Crash <br> Course </h2></a>
+                            </div>
+                        </div>
+
+                        <div class="stu">
+                            <h1> What Our Students Say </h1>
+
+                            <div class="re">
+                                <p class="pere"> THANK YOU so much Akash sir for making me learn IOS at my expectation level. Compared to all the other institutes, I have been through I got a very good training under Akash Padhiyar. He is a very good developer and he keeps a very friendly environment with students individually and stays professional in class and also trains her students how to be professional in practical terms in real time world. Overall, my experience was very good.</p>
+
+                            </div>
+
+                            <div class="im">
+                                <img src="st-1.jpg"  class="pic" >  <h3 class="nam"> AMARPRIT <br><br> PHP <br> <img src="4.png" class="im4">  </h3>
+                            </div>
+                          
+                            <div class="re1">
+                                <p class="pere"> Very helpful company for coaching of last year project in BCA. Sir is very good person to help us every time whenever we have query in project they will quick solve the query. I am very thankful for all Aksah Technolabs team cause they help us every movement of our last year project. Akash Technolabs achieved many things in a year, hope they getting more achievements. Thank you Akash Technolabs and thank you Akash sir.</p>
+
+                            </div>
+
+                            <div class="im1">
+                                <img src="st-2.jpg" class="pic">  <h3 class="nam"> HIM BHAVSAR <br><br> LARAVEL <br> <img src="4.png" class="im4">  </h3>
+                            </div>
+
+                            <div class="re2">
+                                <p class="pere"> I joined Akash Technolabs to complete my php project, and completed my php training with a successful output with a great experience, the teaching skill of Akash Technolabs is also very good, happy to join Akash Technolabs. Thank you Akash Technolabs and thank you Akash sir.</p>
+
+                            </div>
+
+                            <div class="im2">
+                                <img src="st-3.jpg" class="pic">  <h3 class="nam"> SHIVANI <br><br> PHP <br> <img src="4.png" class="im4">  </h3>
+                            </div>
+
+                            <div class="re3" >
+                                <p class="pere"> It`s one of the best IT company to get training and developing your skill, here trainers have a great knowledge and they will help you in every possible way to improve and develop your skills. Good experience with akash technolabs Thank you Akash Technolabs and thank you Akash sir.</p>
+
+                            </div>
+
+                            <div class="im3">
+                                <img src="st-4.jpg" class="pic">  <h3 class="nam"> PAROTOSH <br><br> LARAVEL <br> <img src="4.png" class="im4">  </h3>
+                            </div>
+
+                        </div>
+
+                        <div class="global">
+                            <h1> Global Presence Of Our Students </h1>
+
+                            <img src="country.png">
+                        </div>
+
+                        <div class="com">
+                            <h1> Group Of Companies </h1>
+
+                            <div class="logo">
+                               <a href="https://akashtechnolabs.com/" target="_blank"><img src="akash-technolabs.png" class="pim"></a> 
+                            </div>
+                            
+                            <div class="logo1">
+                               <a href="http://unicorntechnolabs.com/" target="_blank"><img src="unicorn-technolabs.png" class="pim"></a> 
+                            </div>
+                            
+                            <div class="logo2">
+                               <a href="http://aptutorials.com/" target="_blank"><img src="ap-tutorials.png" class="pim"></a> 
+                            </div>        
+
+                        </div>
+
+                        <div class="footer">
+                            <div class="na" >
+                                <h1> JS Development</h1>
+                                    <ul type="none">
+                                        <a href="https://www.akashsir.com/angularjs-training-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap>Angular Js </li> </a>
+                                        <a href="https://www.akashsir.com/angular-training-in-ahmedabad" target="_blank" ><li>  <snap class="span"> &#8250; </snap>Angular  </li> </a>
+                                        <a href="https://www.akashsir.com/nodejs-training-ahmedabad" target="_blank"><li>  <snap class="span"> &#8250; </snap>Node Js </li> </a>
+                                        <a href="https://www.akashsir.com/reactjs-tranining-ahmedabad" target="_blank"><li>  <snap class="span"> &#8250; </snap>React Js </li> </a>
+                                        <a href="tps://www.akashsir.com/express-js-training-ahmedabad" target="_blank"><li>  <snap class="span"> &#8250; </snap>Express Js </li> </a>
+                                        <a href="https://www.akashsir.com/vue-js-training-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap> Vue Js </li> </a>
+                                    </ul>
+                            </div>
+
+                            <div class="na" style="margin-left:320px ;margin-top:-290px ;">
+                                <h1> Web Devlopment </h1>
+                                <ul type="none">
+                                    <a href="https://www.akashsir.com/django-training-ahmedabad" target="_blank"><li><snap class="span"> &#8250; </snap> Django </li> </a>
+                                    <a href="https://www.akashsir.com/laravel-training-in-ahmedabad" target="_blank"><li><snap class="span" > &#8250; </snap> Laravel </li> </a>
+                                    <a href="https://www.akashsir.com/php-training-ahmedabad" target="_blank"><li><snap class="span"> &#8250; </snap> PHP </li> </a>
+                                    <a href="https://www.akashsir.com/wordpress-training-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap>Wordpress </li> </a>
+                                    <a href="https://www.akashsir.com/magento-training-ahmedabad" target="_blank"><li><snap class="span"> &#8250; </snap> Magento </li> </a>
+                                    <a href="https://www.akashsir.com/codeigniter-training-in-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap>Codeigniter </li> </a>
+                                </ul>
+                                    
+
+                            </div>
+
+                            <div class="na" style="margin-left:620px ;margin-top:-290px ;width:350px ;">
+                                <h1> Mobile Devlopment </h1>
+                                <ul type="none">
+                                    <a href="https://www.akashsir.com/flutter-training-in-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap> Flutter </li> </a>
+                                    <a href="https://www.akashsir.com/react-native-training-in-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap> React Native </li> </a>
+                                    <a href="https://www.akashsir.com/ionic-training-ahmedabad" target="_blank"> <li> <snap class="span"> &#8250; </snap>Iconic </li> </a>
+                                    <a href="https://www.akashsir.com/android-training-ahmedabad" target="_blank"><li><snap class="span"> &#8250; </snap> Android </li> </a>
+                                    <a href="https://www.akashsir.com/android-training-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap>IOS </li> </a>
+                                    <a href="https://www.akashsir.com/kotlin-training-ahmedabad" target="_blank"><li><snap class="span"> &#8250; </snap> Kotlin </li> </a>
+                                </ul>
+                        </div>
+
+
+                        <div class="na" style="margin-left:930px ;margin-top:-290px ;width:320px ;">
+                            <h1> Specialize Course </h1>
+                            <ul type="none">
+                                <a href="https://www.akashsir.com/dart-training-ahmedabad" target="_blank"> <li><snap class="span"> &#8250; </snap> Dart</li> </a>
+                                <a href="https://www.akashsir.com/machine-learning-training-ahmedabad" target="_blank"> <li> <snap class="span"> &#8250; </snap> Machine Learning</li> </a>
+                                <a href="https://www.akashsir.com/iot-training-ahmedabad" target="_blank" ><li> <snap class="span"> &#8250; </snap> IOT</li> </a>
+                                <a href="https://www.akashsir.com/html-training-ahmedabad" target="_blank" ><li> <snap class="span"> &#8250; </snap>HTML</li> </a>
+                                <a href="https://www.akashsir.com/css-training-ahmedabad" target="_blank"><li> <snap class="span"> &#8250; </snap> CSS </li> </a>
+                            </ul>
+                        </div>
+
+
+                        <div class="na" style="margin-left:1200px ;margin-top:-260px ;width:300px ;">
+                            <h1> Programming </h1>
+                            <ul type="none">
+                                <a href="https://www.akashsir.com/python-training-ahmedabad" target="_blank"> <li> <snap class="span"> &#8250; </snap>Python</li> </a>
+                                <a href="https://www.akashsir.com/c-programming-training-ahmedabad" target="_blank"> <li> <snap class="span"> &#8250; </snap>C-Program </li> </a>
+                                <a href="https://www.akashsir.com/c-plus-plus-programming-training-ahmedabad" target="_blank"> <li> <snap class="span"> &#8250; </snap> C++ Progrom</li> </a>
+                                <a href="https://www.akashsir.com/java-training-ahmedabad" target="_blank"> <li> <snap class="span"> &#8250; </snap> JAVA </li> </a>
+                            </ul>
+                        </div>
+                        
+                        <hr style="margin-top:150px ;width:1300px ;">
+
+                        <div class="add">
+                            <img src="akf.png" class="aki" >
+                            <p> Second Floor 202 Aarya Arcade , Near Krishna Center, Mithakhali Six Rd, above Passport Office, Ahmedabad, Gujarat 380009</p>
+
+                            <a href="https://g.page/akashsirdotcom?share" target="_blank"  class="map">Find us on Google Map</a>
+
+                            <p> 
+                                <a href="https://www.facebook.com/akashsirdotcom/" target="_blank"> <img src="f.png"></a> 
+                                <a href="https://www.instagram.com/akashsirdotcom/" target="_blank"><img src="i.jpg"> </a>
+                                <a href="https://twitter.com/akashsirdotcom" target="_blank"> <img src="t.png">  </a>
+                                <a href="https://in.linkedin.com/in/akashpadhiyar" target="_blank"> <img src="li.png"> </a> 
+                                <a href="https://www.youtube.com/user/Akashtips" target="_blank"> <img src="you.png" > </a> 
+                                <a href="https://api.whatsapp.com/send?phone=+919978621654&text=Hello%20Akash%20Sir%20%20I%20Am%20Looking%20For%20" target="_blank"> <img src="wh.png" > </a> 
+                            
+                            </p> 
+
+                            <h1> Information </h1>
+
+                            <a href="tel: +91 9978621654" class="call">  &#128222; +91 9978621654 </a> <br>
+
+                             <a href="mailto:info@akashsir.com" class="call">&#128231; info@akashsir.com</a>
+
+
+
+                        </div>
+
+                        <div class="na" style="margin-left:400px ;margin-top:-500px ;width:350px ;">    
+                            <h1> Featured Links </h1>
+                            <ul type="none">
+                                <a href="https://www.akashsir.com/finalyear-project-traning-ahmedabad" target="_blank"> <li> <snap class="span2">&#8250;</snap> Final Year Project</li> </a>
+                                <a href="https://www.akashsir.com/online-training" target="_blank"> <li> <snap class="span2">&#8250;</snap> Online Training </li> </a>
+                                <a href="https://www.akashsir.com/international-it-training" target="_blank"> <li> <snap class="span2">&#8250;</snap>International IT Training</li> </a>
+                                <a href="https://www.akashsir.com/on-job-corporate-training" target="_blank" > <li><snap class="span2">&#8250;</snap> On Job Training </li> </a>
+                                <a href="https://www.akashsir.com/demo-lecture" target="_blank"> <li> <snap class="span2">&#8250;</snap> Demo Lecture </li> </a>
+                                <a href="https://www.akashsir.com/one-to-one-corporate-training" target="_blank"> <li> <snap class="span2">&#8250;</snap>One To One Training </li> </a>
+                                <a href="https://www.akashsir.com/all-course-content" target="_blank"> <li><snap class="span2">&#8250;</snap> All Course Content </li> </a>
+                            </ul>
+                        </div>
+
+
+                        <div class="na" style="margin-left:700px ;margin-top:-420px ;width:300px ;">
+                            <h1> Useful Links </h1>
+                            <ul type="none" >
+                                <a href="https://www.akashsir.com/about-us" target="_blank"> <li> <snap class="span2">&#8250;</snap> About Me </li> </a>
+                                <a href="https://www.akashsir.com/webinar" target="_blank">  <li>  <snap class="span2">&#8250;</snap>Webinar </li> </a>
+                                <a href="https://www.akashsir.com/gallery-seminar" target="_blank">  <li>  <snap class="span2">&#8250;</snap> Seminar</li> </a>
+                                <a href="https://www.akashsir.com/our-workshop" target="_blank">  <li> <snap class="span2">&#8250;</snap>Workshop</li> </a>
+                                <a href="https://www.akashsir.com/tools-technology" target="_blank"> <li> <snap class="span2">&#8250;</snap> Tools & Technology </li> </a>
+                                <a href="https://www.akashsir.com/all-courses" target="_blank"> <li> <snap class="span2">&#8250;</snap> Courses</li> </a>
+                                <a href="https://www.akashsir.com/book-appointment" target="_blank"> <li>  <snap class="span2">&#8250;</snap> Book Appointment</li> </a>
+
+                            </ul>
+                        </div>
+
+                        <div class="pro">
+                            <h1> Popular Courses</h1>
+                            <a href="https://akashsir.com/nodejs-training-ahmedabad" target="_blank"><img src="node-js.jpg" class="pc"></a>
+                            <a href="https://akashsir.com/angularjs-training-ahmedabad" target="_blank"> <img src="angular.jpg" class="pc1"></a>
+                            <a href="https://akashsir.com/reactjs-tranining-ahmedabad" target="_blank"> <img src="react-js.jpg" class="pc1" ></a>
+                            <a href="https://akashsir.com/laravel-training-in-ahmedabad" target="_blank"><img src="laravel.jpg" class="pc2"> </a>
+                            <a href="https://akashsir.com/python-training-ahmedabad" target="_blank"><img src="python.jpg" class="pc1"> </a>
+                            <a href="https://akashsir.com/flutter-training-in-ahmedabad" target="_blank"><img src="flutter.jpg" class="pc1"> </a>
+
+                        </div>
+
+                        
+                        <div class="pro1">
+                            <h1> Get Exclusive Video</h1>
+                            <a href=""https://play.google.com/store/apps/details?id=com.akashtechnolabs.aptutorials" target="_blank">"<img src="play.png"  class="prc1"> </a>
+                            <a href="https://apps.apple.com/us/app/ap-tutorials-akash-padhiyar/id1454381517" target="_blank"><img src="app.png" class="prc2"></a>
+
+
+                        </div>
+
+                        </div>
+
+                        
+        
+                </body>
+</html>
